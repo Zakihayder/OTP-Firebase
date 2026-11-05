@@ -2,23 +2,17 @@
   "expo": {
     "name": "otp-firebase",
     "slug": "otp-firebase",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
-      "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
-      }
+      "package": "com.quiz04.ot",
+      "googleServicesFile": "./google-services.json"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "plugins": [
+      "@react-native-firebase/app"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "6633b236-023f-4340-8fd8-61cf09d3f351"
+      }
     }
   }
 }
