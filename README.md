@@ -25,12 +25,6 @@ A React Native (Expo) mobile app that verifies a user's phone number using a one
 3. The user enters the code.
 4. The app calls `confirmation.confirm(code)`. If the code is correct, the user is verified and a success message is shown. Otherwise an error message is displayed.
 
-## Screenshots
-
-| Enter phone number | Enter OTP | Success |
-|---|---|---|
-| ![Phone screen](screenshots/phone.png) | ![OTP screen](screenshots/otp.png) | ![Success screen](screenshots/success.png) |
-
 ## Prerequisites
 
 - [Node.js](https://nodejs.org/) 18 or later
